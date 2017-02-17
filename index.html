@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="main.css">
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<!-- <script src="js/draggabilly.pkgd.min.js"></script> -->
+	<script src="js/jquery-ui.min.js"></script>
+	<script>
+		$(function(){
+			$( ".field" ).draggable({ containment: "parent" });
+			$( ".field" ).resizable();
+			$(".ui-resizable-handle").mouseover(function(){
+				$(this).addClass("resize-handle-active")
+			}).mouseout(function(){
+				$(this).removeClass("resize-handle-active")
+			})
+		})
+	</script>
+</head>
+<body>
+	<div class="main">
+		<ul class="form-list">
+			<li>
+				<label class="list-label" for="">选择模板：</label>
+				<select class="select J_TempleteSelect">
+						<option value="">请选择系统模板</option>
+						<option value="">龙邦速递（系统模板）</option>
+						<option value="">联昊通（系统模板）</option>
+						<option value="">海航天天快递（系统模板）</option>
+						<option value="">全峰代收（系统模板）</option>
+						<option value="">全峰快递（系统模板）</option>
+						<option value="">港中达能</option>
+						<option value="">汇通快运</option>
+						<option value="">CCES</option>
+						<option value="">圆通速递</option>
+						<option value="">顺丰速运</option>
+						<option value="">宅急送</option>
+						<option value="">星晨急便COD</option>
+						<option value="">EMS</option>
+						<option value="">星晨急便</option>
+						<option value="">韵达快运</option>
+						<option value="">中通速递</option>
+						<option value="">申通E物流</option>
+				</select>
+			</li>
+			<li>
+				<label class="list-label" for="">模板名称：</label>
+				<input type="text" class="text" value="">
+			</li>
+			<li>
+				<label class="list-label" for="">选择模板：</label>
+				<select class="select J_TempleteSelect">
+						<option value="">龙邦速递</option>
+						<option value="">联昊通</option>
+						<option value="">海航天天快递</option>
+						<option value="">全峰代收</option>
+						<option value="">全峰快递</option>
+						<option value="">港中达能</option>
+						<option value="">汇通快运</option>
+						<option value="">CCES</option>
+						<option value="">圆通速递</option>
+						<option value="">顺丰速运</option>
+						<option value="">宅急送</option>
+						<option value="">星晨急便COD</option>
+						<option value="">EMS</option>
+						<option value="">星晨急便</option>
+						<option value="">韵达快运</option>
+						<option value="">中通速递</option>
+						<option value="">申通E物流</option>
+				</select>
+			</li>
+			<li>
+				<label class="list-label">模板尺寸：</label>
+				<select class="select">
+					<option>自定义尺寸</option>
+					<option>300×200</option>
+					<option>200×150</option>
+				</select>
+				<label>宽：<input type="text" class="templete-size"></label>
+				mm
+				<label>高：<input type="text" class="templete-size"></label>
+				mm
+				<button>重设高度</button>	
+			</li>
+			<li>
+				<label class="list-label" for="">选择打印项：</label>
+				<ul class="item-check">
+					<li>
+						<label>
+							<input type="checkbox">订单编号
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox">订单编号
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox">订单编号
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox">订单编号
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox">订单编号
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox">订单编号
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox">订单编号
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox">订单编号
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox">订单编号
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox">订单编号
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox">订单编号
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox">订单编号
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox">订单编号
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox">订单编号
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox">订单编号
+						</label>
+					</li>
+				</ul>
+			</li>
+		</ul>
+		<div class="box">
+			<div class="templete-editor">
+				<div class="hd">
+					<h3>打印偏移校正</h3>
+				</div>
+				<div class="bd">
+					<img width="766" src="111.JPG " style="" height="510">
+					<div class="field field1 resize">
+						<span class="field-name">订单编号</span>
+						<a class="closebtn" href="#">X</a>
+					</div>	
+					<div class="field field2 resize">
+						<span class="field-name">发件人姓名</span>
+						<a class="closebtn" href="#">X</a>
+					</div>	
+					<div class="field field3 resize">
+						<span class="field-name">发件人电话</span>
+						<a class="closebtn" href="#">X</a>
+					</div>	
+					<div class="field field4 resize">
+						<span class="field-name">发件人公司</span>
+						<a class="closebtn" href="#">X</a>
+					</div>	
+					<div class="field field5 resize">
+						<span class="field-name">发件人地址</span>
+						<a class="closebtn" href="#">X</a>
+					</div>	
+					<div class="field field6 resize">
+						<span class="field-name">发件人邮编</span>
+						<a class="closebtn" href="#">X</a>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

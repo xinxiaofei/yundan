@@ -1,0 +1,34 @@
+*{margin:0;padding: 0;box-sizing: border-box;font-size: 12px;}
+ul,li,ol{list-style: none;}
+body,html{font-family: "微软雅黑",font-size:12px;}
+.main{width: 992px;margin:0 auto;}
+.form-list li{margin: 10px 0;padding-left: 102px;min-height: 1%;}
+.form-list li .list-label{width: 96px; margin-left: -102px; float: left; text-align: right;}
+.form-list .select{padding: 1px; margin-right: 5px; border: #7e9db9 1px solid;}
+.form-list .text{width: 122px; margin-right: 5px;}
+.templete-size{width: 50px;}
+.item-check{width: 504px;}
+.item-check li{display:inline-block;width: 32%;margin: 0;padding: 0;}
+.item-check input[type="checkbox"]{margin-right: 5px;}
+.box{display: block;}
+.box .hd{background-position: 0 -5px; border: 1px solid #7f9db9; border-bottom: 1px; height: 29px; line-height: 29px;}
+.box .hd h3{font-size:12px;background: 0 none; line-height: 29px; height: 29px;padding-left: 10px;}
+.bd{border: 1px solid #7f9db9;position: relative;padding: 0;}
+.bd .field{position: absolute;background-color:#fef5e6;cursor: move;border: 1px solid #ff8c3f;z-index: 0;}
+.bd .field .field-name{padding: 3px 10px; display: block;}
+.bd .field .closebtn{position: absolute; right: 5px; top: 2px; background: red; color: #fff; display: inline-block; padding: 1px 2px; line-height: 12px;text-decoration:none;}
+.bd .field .resize-handle{position: absolute; z-index: 1; font-size: 0; margin: 0; padding: 0; zoom: 1; height: 1px; width: 1px; background: #fff; opacity: .5;}
+.bd .field .resize-br{height: 5px; width: 5px; bottom: 0; right: 0; cursor: se-resize; z-index: 2; zoom: 1;}
+.bd .field .resize-b{width: 100%; height: 5px; bottom: 0; right: 0; cursor: s-resize; zoom: 1;}
+.bd .field .resize-r{width: 5px; height: 100%; top: 0; right: 0; cursor: e-resize; zoom: 1;}
+.bd .field .resize-handle-active{background-color: red}
+.field1{display: block; top: 0px; left: 19px; visibility: visible; width: 148px; height: 23px;}
+.field2{display: block; top: 29px; left: 19px; visibility: visible; width: 148px; height: 23px;}
+.field3{display: block; top: 58px; left: 19px; visibility: visible; width: 148px; height: 23px;}
+.field4{display: block; top: 87px; left: 19px; visibility: visible; width: 148px; height: 23px;}
+.field5{display: block; top: 116px; left: 19px; visibility: visible; width: 148px; height: 23px;}
+.field6{display: block; top: 145px; left: 19px; visibility: visible; width: 148px; height: 23px;}
+.ui-resizable-handle{position: absolute; font-size: .1px; display: block;opacity: 0.5;}
+.ui-resizable-e{cursor: e-resize; width: 5px; right: 0px; top: 0; height: 100%;}
+.ui-resizable-s{cursor: s-resize; height: 5px; width: 100%; bottom: 0px; left: 0;}
+.ui-resizable-se{cursor: se-resize; width: 5px; height: 5px; right: 0px; bottom: 0px;}
